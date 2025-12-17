@@ -19,7 +19,7 @@ public class Calculadora {
 
         while (opcao != 0) {
 
-            mostartMenu();
+            mostrarMenu();
 
             System.out.println("Escolha uma opção: ");
             opcao = keyboard.nextInt(); 
@@ -76,7 +76,7 @@ public class Calculadora {
         System.out.println("====================================\n");
     }
 
-    static void mostartMenu(){
+    static void mostrarMenu(){
         System.out.println("\n------------------------------------");
         System.out.println("MENU");
         System.out.println("------------------------------------");
